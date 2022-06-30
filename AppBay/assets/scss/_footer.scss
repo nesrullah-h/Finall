@@ -1,0 +1,30 @@
+footer{
+    margin: 50px 0;
+    padding: 40px 0;
+    background-color: #666464;
+    .footer-title{
+
+        p{
+            color: #ffffff;
+            text-align: center;
+        }
+        
+    }
+    .footer-icons{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        .sosial{
+            margin: 5px;
+            width: 60px;
+            height: 60px;
+            background-color: #e2dada;
+            border-radius: 50%;
+            i{
+                font-size: 20px;
+                padding:20px;
+                color: #666464; 
+            }
+        }
+    }
+}

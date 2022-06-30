@@ -1,0 +1,114 @@
+main{
+    
+    .page-intro{
+        width: 100%;
+        background-image: url(../img/bigBG.jpg); 
+        .container{
+            .row{
+                img{
+                    padding: 0 50px;
+                }
+                .title{
+                    display: flex;
+                    align-items: center;
+                    div{
+                        padding-top: 25px;
+                        h1{
+                            font-size: 60px;
+                            color: #ffffff;
+                        }
+                        p{
+                            font-size: 30px;
+                            color: white;
+                        }
+                    }
+                    button{
+                        display: flex;
+                        .icon{
+                            margin: auto 5px;
+                            font-size: 50px;
+                            padding-right: 10px;
+                        }
+                        span{
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    .services{
+        padding: 50px 0;
+        .container{
+            .row{
+                .col-4{
+                    text-align: center;
+                    .service-icon{
+                        background-color: #5985e6;
+                        border-radius: 50%;
+                        width: 150px;
+                        height: 150px;
+                        margin: 0 auto;
+                        i{
+                            color: white;
+                            font-size: 45px;
+                            padding:50px;
+                        }
+                    }
+                    .service-title{
+                        padding-top: 15px;
+                    }
+                    .service-text{
+                        padding-top: 10px;
+                        width: 80%;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+    .slider{
+        padding-top: 50px;
+        background-color: #ddd7d7;
+        
+        .container{
+            
+            text-align: center;
+            .slide-title{
+                h2{
+                    text-align: center;
+                    color: #2e5bd4;;
+                }
+            }
+            .slide{
+                height: 300px;
+                .carousel-inner{
+                    .carousel-item{
+                        p{
+                            font-size: 25px;
+                        }
+                        h5{
+                            color: #2e5bd4;
+                            padding-bottom: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contact-us{
+        padding-top: 50px;
+        .container{
+            width: 50%;
+            .contact-title{
+                text-align: center;
+                h2{
+                    font-size: 50px;
+                    color: #305ec0;
+                }
+                p{font-size: 25px;}
+            }
+        }
+    }
+}

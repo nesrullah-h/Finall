@@ -1,0 +1,190 @@
+header .container .navbar .container-fluid .logo p {
+  font-size: 40px;
+}
+
+header .container .navbar .container-fluid .logo i {
+  cursor: pointer;
+  padding: 15px 20px;
+  border-radius: 50%;
+  background-color: #237dd1;
+  color: white;
+}
+
+header .container .navbar .container-fluid .logo .app {
+  cursor: pointer;
+  margin-left: 10px;
+  color: #237dd1;
+}
+
+header .container .navbar .container-fluid .logo .bay {
+  cursor: pointer;
+  color: #666464;
+}
+
+header .container .navbar .container-fluid .navbar-nav .nav-item {
+  font-size: 20px;
+}
+
+main .page-intro {
+  width: 100%;
+  background-image: url(../img/bigBG.jpg);
+}
+
+main .page-intro .container .row img {
+  padding: 0 50px;
+}
+
+main .page-intro .container .row .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .page-intro .container .row .title div {
+  padding-top: 25px;
+}
+
+main .page-intro .container .row .title div h1 {
+  font-size: 60px;
+  color: #ffffff;
+}
+
+main .page-intro .container .row .title div p {
+  font-size: 30px;
+  color: white;
+}
+
+main .page-intro .container .row .title button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .page-intro .container .row .title button .icon {
+  margin: auto 5px;
+  font-size: 50px;
+  padding-right: 10px;
+}
+
+main .page-intro .container .row .title button span {
+  font-size: 20px;
+}
+
+main .services {
+  padding: 50px 0;
+}
+
+main .services .container .row .col-4 {
+  text-align: center;
+}
+
+main .services .container .row .col-4 .service-icon {
+  background-color: #5985e6;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+main .services .container .row .col-4 .service-icon i {
+  color: white;
+  font-size: 45px;
+  padding: 50px;
+}
+
+main .services .container .row .col-4 .service-title {
+  padding-top: 15px;
+}
+
+main .services .container .row .col-4 .service-text {
+  padding-top: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+main .slider {
+  padding-top: 50px;
+  background-color: #ddd7d7;
+}
+
+main .slider .container {
+  text-align: center;
+}
+
+main .slider .container .slide-title h2 {
+  text-align: center;
+  color: #2e5bd4;
+}
+
+main .slider .container .slide {
+  height: 300px;
+}
+
+main .slider .container .slide .carousel-inner .carousel-item p {
+  font-size: 25px;
+}
+
+main .slider .container .slide .carousel-inner .carousel-item h5 {
+  color: #2e5bd4;
+  padding-bottom: 25px;
+}
+
+main .contact-us {
+  padding-top: 50px;
+}
+
+main .contact-us .container {
+  width: 50%;
+}
+
+main .contact-us .container .contact-title {
+  text-align: center;
+}
+
+main .contact-us .container .contact-title h2 {
+  font-size: 50px;
+  color: #305ec0;
+}
+
+main .contact-us .container .contact-title p {
+  font-size: 25px;
+}
+
+footer {
+  margin: 50px 0;
+  padding: 40px 0;
+  background-color: #666464;
+}
+
+footer .footer-title p {
+  color: #ffffff;
+  text-align: center;
+}
+
+footer .footer-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .footer-icons .sosial {
+  margin: 5px;
+  width: 60px;
+  height: 60px;
+  background-color: #e2dada;
+  border-radius: 50%;
+}
+
+footer .footer-icons .sosial i {
+  font-size: 20px;
+  padding: 20px;
+  color: #666464;
+}
+/*# sourceMappingURL=style.css.map */

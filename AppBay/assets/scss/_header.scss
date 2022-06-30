@@ -1,0 +1,36 @@
+header{
+    .container{
+        .navbar{
+            .container-fluid{
+                .logo{
+                    
+                    p{
+                        font-size: 40px;
+                    }
+                    i{
+                        cursor: pointer;
+                        padding: 15px 20px;
+                        border-radius: 50%;
+                        background-color:#237dd1 ;
+                        color: white;
+                    }
+                    .app{
+                        cursor: pointer;
+                        margin-left: 10px;
+                        color: #237dd1;
+                    }
+                    .bay{
+                        cursor: pointer;
+                        color: #666464;
+                    }
+                    
+                }
+                .navbar-nav{
+                    .nav-item{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
